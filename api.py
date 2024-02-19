@@ -35,7 +35,7 @@ app = FastAPI(
        openapi_tags= tags
 )
 
-# Chargement du modèle
+# Chargement du modèlessss
 model_pkl_file = "model_1.pkl"
 with open(model_pkl_file, 'rb') as file:
     svm_model = pickle.load(file)
