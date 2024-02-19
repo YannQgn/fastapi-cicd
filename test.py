@@ -4,26 +4,6 @@ from fastapi.testclient import TestClient
 from api import app
 import os
 
-# assertEqual(a, b) : Vérifie si a est égal à b.
-# assertNotEqual(a, b) : Vérifie si a est différent de b.
-        
-# assertIn(a, b) : Vérifie si a est dans b.
-# assertNotIn(a, b) : Vérifie si a n'est pas dans b.
-        
-# assertIs(a, b) : Vérifie si a est b.
-# assertIsNot(a, b) : Vérifie si a n'est pas b.
-        
-# assertTrue(x) : Vérifie si x est vrai.
-# assertFalse(x) : Vérifie si x est faux.
-        
-# assertIsNone(x) : Vérifie si x est None.
-# assertIsNotNone(x) : Vérifie si x n'est pas None.
-        
-# assertIsInstance(a, b) : Vérifie si a est une instance de b.
-# assertNotIsInstance(a, b) : Vérifie si a n'est pas une instance de b.
-        
-# assertRaises(exc, fun, *args, **kwargs) : Vérifie si fun(*args, **kwargs) lève une exception de type exc.
-# assertRaisesRegex(exc, r, fun, *args, **kwargs) : Vérifie si fun(*args, **kwargs) lève une exception de type exc et dont le message correspond à l'expression régulière r.
 
 
 # Tests unitaire de l'environnement de développement
